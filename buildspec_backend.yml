@@ -22,6 +22,3 @@ phases:
   post_build:
     commands:
       - aws cloudformation describe-stacks --stack-name BaseInfraStack-$DEPLOY_ENVcd /Workshop/modern-cicd-with-github-and-aws-codepipeline/
-git add .
-git commit -m "Added Backend BuildSpec, Updated CloudFormation"
-git push
